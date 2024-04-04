@@ -16,7 +16,7 @@
 
 .form-box .progress{ 
      position: relative; 
-     padding: 1em;
+     padding: 1em; 
 } 
 .logo{ 
   font-size: 1.75em; 
@@ -27,7 +27,7 @@
 }
  
 .logo span{ 
-  color: navajowhite;
+  color: navajowhite; 
 }
 
 .progress ul.progress-steps{ 
@@ -35,14 +35,15 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2em;
+  gap: 5em; 
+  padding: 100px;
 }
 
 .progress ul.progress-steps li{ 
    position: relative;
    display: flex;
    align-items: flex-start;
-   margin-bottom: 2em; 
+   margin-bottom: 5em; 
 
 } 
 .progress ul.progress-steps li > span{ 
@@ -169,6 +170,25 @@ form > div.active {
 
 
 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px){  
      .form-box{ 
       flex-direction: row;
@@ -207,6 +227,7 @@ form > div.active {
       display: block;
      }
 }
+
 
 
 
