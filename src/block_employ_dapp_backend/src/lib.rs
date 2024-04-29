@@ -1,4 +1,5 @@
-//Change content of the project
+//Change content of the project 
+//Change some details 
 use candid::{Decode, Encode, Result};
 use serde::{Deserialize, Serialize};
 extern crate serde;
